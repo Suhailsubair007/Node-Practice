@@ -15,14 +15,14 @@
 
 //Async writing 
 
-// const fs = require('node:fs');
+const fs = require('node:fs');
 
-// fs.writeFile('test2.txt','Hi suhail it is the new file !!!!!',(err)=>{
-//     if(err){
-//         console.log(err);
-//     }
-//     console.log("File written succesfullyy...");
-// });
+fs.writeFile('test2.txt','Hi suhail it is the new file !!!!!',(err)=>{
+    if(err){
+        console.log(err);
+    }
+    console.log("File written succesfullyy...");
+});
 
 
 
